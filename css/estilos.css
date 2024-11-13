@@ -24,7 +24,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    height: 9rem;
+    height: 9.5rem;
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr;
@@ -35,7 +35,7 @@ header {
         display: flex;
         align-items: center;
         gap: 1rem;
-        
+
         .logo {
             width: 60px;
             height: auto;
@@ -85,12 +85,13 @@ header {
     }
 }
 
-.main {
+main {
     padding-top: 10rem;
     display: grid;
     padding-left: 2rem;
     padding-right: 2rem;
-    min-height: 70.6vh;
+    padding-bottom: 2rem;
+    
 
     h2 {
         color: #4CAF50;
@@ -150,6 +151,8 @@ footer {
     padding: 1rem;
     font-size: 0.9rem;
     margin-top: 2rem;
+    grid-row-start: 3;
+    grid-row-end: 3;
 
     #contacto {
         margin-bottom: 1rem;
