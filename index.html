@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pies Felices - Zapatería</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-logo-title">
+                <img src="img/logo.png" alt="Logo de Pies Felices" class="logo">
+                <h1>Pies Felices</h1>
+            </div>
+            <p>Calzado cómodo y a la moda para toda la familia</p>
+            <nav>
+                <a href="index.php">Inicio</a>
+                <a href="php/inventario.php">Inventario</a>
+                <a href="php/acerca.php">Quienes Somos</a>
+            </nav>
+            <div class="user-info">
+                    <span>Bienvenido, Carlos</span>
+                    <a href="php/logout.php" class="btn-login">Cerrar sesión</a>
+            </div>
+        </header>
+
+        <main class="main">
+            <section id="bienvenida">
+                <h2>Bienvenidos a Pies Felices</h2>
+                <p>En Pies Felices, nos especializamos en ofrecer calzado de alta calidad que combina estilo y comodidad. Nuestra misión es que cada paso sea una experiencia placentera.</p>
+            </section>
+
+            <section id="categorias">
+                <h2>Categorías de Calzado</h2>
+                <div class="categorias-grid">
+                    <div class="categoria">
+                        <h3>Hombre</h3>
+                        <p>Calzado para hombres de todas las edades y estilos.</p>
+                        <a href="php/inventario.php?categoria=Hombre" class="btn">Ver productos</a>
+                    </div>
+                    <div class="categoria">
+                        <h3>Mujer</h3>
+                        <p>Calzado para mujeres, incluyendo opciones elegantes y casuales.</p>
+                        <a href="php/inventario.php?categoria=Mujer" class="btn">Ver productos</a>
+                    </div>
+                    <div class="categoria">
+                        <h3>Niños</h3>
+                        <p>Calzado infantil diseñado para el máximo confort y durabilidad.</p>
+                        <a href="php/inventario.php?categoria=Niños" class="btn">Ver productos</a>
+                    </div>
+                    <div class="categoria">
+                        <h3>Bebés</h3>
+                        <p>Calzado suave y cómodo para los más pequeños.</p>
+                        <a href="php/inventario.php?categoria=Bebés" class="btn">Ver productos</a>
+                    </div>
+                    <div class="categoria">
+                        <h3>Trabajo</h3>
+                        <p>Calzado ideal para largas jornadas laborales y con soporte extra.</p>
+                        <a href="php/inventario.php?categoria=Trabajo" class="btn">Ver productos</a>
+                    </div>
+                    <div class="categoria">
+                        <h3>Deportivos</h3>
+                        <p>Encuentra el calzado perfecto para todas tus actividades deportivas.</p>
+                        <a href="php/inventario.php?categoria=Deportivos" class="btn">Ver productos</a>
+                    </div>
+                    <div class="categoria">
+                        <h3>Ortopédicos</h3>
+                        <p>Calzado ortopédico especializado para un máximo confort y cuidado del pie.</p>
+                        <a href="php/inventario.php?categoria=Ortopédicos" class="btn">Ver productos</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section id="contacto">
+                <h2>Contáctanos</h2>
+                <p>Email: contacto@piesfelices.com</p>
+                <p>Teléfono: +34 634 56 78 90</p>
+            </section>
+            <p>&copy; 2023 Pies Felices. Todos los derechos reservados.</p>
+            <p>Síguenos en redes sociales: 
+                <a href="https://facebook.com/piesfelices" target="_blank">Facebook</a> | 
+                <a href="https://instagram.com/piesfelices" target="_blank">Instagram</a>
+            </p>
+        </footer>
+    </body>
+</html>
